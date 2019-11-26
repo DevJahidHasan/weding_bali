@@ -1,0 +1,131 @@
+/* Medium Layout: 1280px. */
+
+@media only screen and (min-width: 992px) and (max-width: 1280px) {
+.container{
+	width: 970px;
+}  
+
+
+
+
+}
+
+/* Tablet Layout: 768px. */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+ .container{
+	width:750px;
+}
+
+
+
+
+
+}
+
+/* Mobile Layout: 320px. */
+
+@media only screen and (max-width: 767px) {
+.container {
+	width:320px;
+}
+.carousel-caption{
+    top:20%;
+}
+    .navbar .navbar-collapse .navbar-right > li:last-child { padding-left: 15px; padding-right: 15px; } 
+    
+    .navbar .nav-collapse { margin: 7.5px auto; padding: 0; }
+    .navbar .nav-collapse .navbar-form { margin: 0; }
+    .nav-collapse>li { float: none; }
+    
+    .navbar.navbar-default .nav-collapse,
+    .navbar.navbar-inverse .nav-collapse {
+        transform: translate(-100%,0px);
+    }
+    .navbar.navbar-default .nav-collapse.in,
+    .navbar.navbar-inverse .nav-collapse.in {
+        transform: translate(0px,0px);
+    }
+    
+    .navbar.navbar-default .nav-collapse.slide-down,
+    .navbar.navbar-inverse .nav-collapse.slide-down {
+        transform: translate(0px,-100%);
+    }
+    .navbar.navbar-default .nav-collapse.in.slide-down,
+    .navbar.navbar-inverse .nav-collapse.in.slide-down {
+        transform: translate(0px,0px);
+    }
+
+.carousel-caption h1 {
+  font-size: 1em;
+}
+
+.carousel-caption > p {
+  color: #fff;
+  font-size: 15px;
+}
+
+#discount h2 {
+  font-size: 16px;
+  margin: 0 0 10px;
+}
+
+.container .section p {
+  width: 100%;
+}
+
+.row.some_facts {
+  background-image: none;
+}
+
+.section {
+  padding-top: 10px;
+}
+
+ul li{
+    margin-bottom: 0px;
+}
+
+
+
+}
+
+
+
+/* Wide Mobile Layout: 480px. */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+.container {
+	width:450px;
+}
+.carousel-caption h1 {
+  font-size: 1em;
+}
+
+.carousel-caption > p {
+  color: #fff;
+  font-size: 15px;
+}
+
+#discount h2 {
+  font-size: 16px;
+  margin: 0 0 10px;
+}
+
+.container .section p {
+  width: 100%;
+}
+
+.row.some_facts {
+  background-image: none;
+}
+
+.section {
+  padding-top: 10px;
+}
+
+ul li{
+    margin-bottom: 0px;
+}
+
+}
